@@ -30,7 +30,7 @@ function loadVehicles(userData) {
         // TODO how to get data to result to get vehicle name
         let result = getRoutes(vehicle, function (err, data) {
             if (err) console.log('error', err)//error handling
-            console.log(data);
+             // console.log(data);
 
         })
         return vehicle;
